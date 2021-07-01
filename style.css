@@ -1,0 +1,73 @@
+h1{
+    color: royalblue;
+}
+.header{
+    background-color:turquoise;
+    display: flex;
+    justify-content: space-around;
+}
+.projects{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.socialMedia{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.info{
+    background-color: lime;
+}
+.ref{
+    background-color: mediumaquamarine;
+}
+p,h2{
+    text-align: center;
+}
+body{
+    background-color: #808080;
+    background-image: url("bckgrnd.jpg");
+    background-size: cover;
+}
+h2{
+    background-color: coral;
+}
+p{
+    color: black;
+}
+.projects div{
+    border: solid green;
+    border-radius: 20px;
+}
+.ref{
+    margin: 25px
+}
+a{
+    margin:20px
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color:darkgreen;
+}
+a:hover{
+    color:red;
+}
+.game{
+    position:relative;
+}
+.game p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    opacity:0;
+}
+.game:hover p{
+    opacity:1;
+}
+.game:hover img{
+    opacity:0.3;
+}
